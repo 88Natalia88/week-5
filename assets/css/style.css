@@ -1,0 +1,50 @@
+.header{
+    text-align: center;
+    padding: 1em;
+    background-color: lightgrey;
+ }
+ .main{
+    display: flex;
+    flex: 1;
+    align-self: stretch;
+    height: 800px;
+    text-align: center;
+    background-color: lightyellow;
+ }
+ .aside{
+    width: 20%;
+    background-color: aquamarine;
+ }
+ #main{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: end;
+ }
+ #main .number{
+    background-color: rgb(233, 233, 131);
+    border-radius: 12px;
+    border: solid;
+    float: left;
+ margin: 10px;
+ width: 670px; 
+ 
+ }
+ .number1{
+    background-color: rgb(233, 233, 131);
+    border-radius: 12px;
+    border: solid;
+    margin: 10px;
+ }
+ .footer{
+    display: flex;
+   justify-content: space-around;
+   background-color: lightgrey;
+ }
+ #footer{
+    padding: 10px;
+    width: 360px;
+    background-color: azure;
+    border-radius: 10px;
+    margin: 10px;
+ }
